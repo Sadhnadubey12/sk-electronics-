@@ -137,19 +137,19 @@
               <div class="btn-group">
                 <a href="#services" class="btn btn-primary">Our Services</a>
 
-                <button class="flex-btn">
+                <!-- <button class="flex-btn">
                   <div class="btn-icon">
                     <ion-icon name="play" aria-hidden="true"></ion-icon>
                   </div>
 
                   <span class="span">See How It Works</span>
-                </button>
+                </button> -->
               </div>
             </div>
 
             <figure
               class="hero-banner has-before img-holder"
-              style="--width: 650; --height: 650"
+              style="--width: 650; --height: 650; "
             >
               <img
                 src="./assets/images/WhatsApp Image 2025-04-15 at 5.07.06 PM.jpeg"
@@ -166,56 +166,60 @@
         - #ABOUT
       -->
 
-       <section class="section about" id="about" aria-label="about"> 
-  <div class="container">
-    <figure class="about-banner">
-      <img
-        src="./assets/images/WhatsApp Image 2025-04-15 at 5.24.23 PM (1).jpeg"
-        width="802"
-        height="654"
-        loading="lazy"
-        alt="SK-ELECTRO services"
-        class="w-100"
-      />
-    </figure>
 
-    <div class="about-content">
+<section class="section about" id="about" aria-label="about"> 
+  <div class="container about-flex">
+  
+    <style>
+  @media (max-width: 768px) {
+    .about-banner img {
+      height: auto !important;
+      max-height: 100%;
+    }
+  }
+</style>
+
+<figure class="about-banner">
+  <img
+    src="./assets/images/about.jpeg"
+    loading="lazy"
+    alt="SK-ELECTRO services"
+    class="w-100"
+    style="height: 600px; width: 100%;"
+  />
+</figure>
+
+
+    <div class="about-content"> 
       <h2 class="h2-sm section-title">
         SK-ELECTRO - Electric Fencing & LED Lights Service Provider
       </h2>
 
-      <p class="section-text">
-        At SK-ELECTRO, we specialize in providing reliable and cutting-edge electric fencing and LED lighting solutions. With a focus on safety, efficiency, and customer satisfaction, we bring over a decade of expertise to homes, businesses, and farms.
-      </p>
-
       <ul class="about-list">
         <li class="has-before">
-          Expert installation and maintenance of electric fencing systems
+          Solar power fencing is a modern-day alternative to conventional perimeter protection.
         </li>
-
         <li class="has-before">
-          High-efficiency LED lighting solutions for indoor & outdoor spaces
+          Solar modules generate direct current (DC) from sunlight to charge the system's battery.
         </li>
-
         <li class="has-before">
-          Transparent pricing with no hidden costs and a 100% satisfaction guarantee
+          The system delivers a SHARP, SHORT, PAINFUL, yet regulated and SAFE electric shock.
+        </li>
+        <li class="has-before">
+          It creates a strong psychological deterrent to prevent intrusion.
+        </li>
+        <li class="has-before">
+          An integrated alarm activates upon tampering and alerts the protected area.
+        </li>
+        <li class="has-before">
+          Ideal for use in agriculture, factories, industries, schools, colleges, gardens, and more.
         </li>
       </ul>
-
-      <div class="btn-group">
-        <a href="#" class="btn btn-primary">Know More</a>
-
-        <button class="flex-btn">
-          <div class="btn-icon">
-            <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
-          </div>
-
-          <span class="span">10+ Years Experience</span>
-        </button>
-      </div>
     </div>
+
   </div>
 </section>
+
 
 
         <!-- 
@@ -237,7 +241,7 @@
         <div class="service-card has-after">
           <figure class="card-icon">
             <img
-              src="https://cdn.pixabay.com/photo/2012/12/20/10/13/electric-fence-71378_640.jpg"
+              src="./assets/images/about.jpeg"
               width="140"
               height="140"
               loading="lazy"
@@ -265,7 +269,7 @@
         <div class="service-card has-after">
           <figure class="card-icon">
             <img
-              src="https://media.istockphoto.com/id/598954202/photo/some-led-lamps-blue-light-science-technology-background.jpg?s=612x612&w=0&k=20&c=_c6U3QLgV5wWxipLkTmrRogHogw-9XXWBFItny205k0="
+              src="./assets/images/WhatsApp Image 2025-05-17 at 12.23.06 PM.jpeg"
               width="140"
               height="140"
               loading="lazy"
@@ -293,6 +297,66 @@
     <a href="#" class="btn btn-primary">Get Started</a>
   </div>
 </section>
+
+
+
+
+<section class="section features" id="services" aria-label="our-services">
+  <div class="container">
+    <p class="section-subtitle text-center" style="font-size: 1.8rem; font-weight: bold;">- SK-ELECTRO Services -</p>
+
+    <h2 class="h2 section-title text-center" style="font-size: 1.8rem; font-weight: 500;">What We Offer</h2>
+
+    <p class="section-text text-center">
+      We provide expert solutions for electric fencing and LED lighting systems tailored to your security and energy needs.
+    </p>
+
+    <ul class="grid-list">
+
+      <li>
+        <div class="features-card">
+          <img src="./assets/images/1585307537659.jpg" alt="Electric Fencing Installation" class="card-image" style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
+          <h3 class="h3 card-title">Electric Fencing Installation</h3>
+          <p class="card-text">
+            Professional installation of solar and electric fencing systems for agriculture, industry, and residential areas.
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div class="features-card">
+          <img src="./assets/images/1585307645156.jpg" alt="Fencing Maintenance" class="card-image" style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
+          <h3 class="h3 card-title">Fencing Maintenance & Repair</h3>
+          <p class="card-text">
+            Timely servicing, fault detection, and repairs for damaged or malfunctioning fencing systems.
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div class="features-card">
+          <img src="./assets/images/1585307711445.jpg" alt="LED Lighting Solutions" class="card-image" style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
+          <h3 class="h3 card-title">LED Lighting Solutions</h3>
+          <p class="card-text">
+            Energy-efficient LED lighting for indoor and outdoor applications in homes, offices, and industrial zones.
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div class="features-card">
+          <img src="./assets/images/WhatsApp Image 2025-05-17 at 12.23.06 PM (1).jpeg" alt="Solar LED Installation" class="card-image" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+          <h3 class="h3 card-title">Solar LED Installation</h3>
+          <p class="card-text">
+            Eco-friendly solar-powered LED lighting systems for pathways, gardens, and security zones.
+          </p>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
 
 
         <!-- 
